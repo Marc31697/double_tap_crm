@@ -53,89 +53,178 @@
     grid-template-rows: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
+    width:300px;
     grid-template-areas:
       ". . . .";
   }
   
   .potatoes{
     padding: 20px;
-    
+    margin-left:60%;
 }
 
+.potatoestwo{
+    padding: 20px;
+    
+    margin-left:5%
+}
+
+.input-icons i{
+    position: absolute;
+}
+
+
 .infou{
-    width: 80%;
+    width: 300px;
     padding: 6px 20px;
-    border-radius: 15px;
+    border-radius: 19px;
     background-color:white;
-    background-image:url(../images/CRM-How-it-works/Page-1.png);
-    background-position: 2px 2px;
-    background-repeat: no-repeat;
+    margin-bottom:20px;
+    
+
     padding: 6px 10px 10px 30px;
     
     }
 
 .infoe{
-    width: 80%;
+    width: 300px;
     padding: 6px 20px;
-    border-radius: 15px;
+    border-radius: 19px;
     background-color:white;
-    background-image:url(../images/CRM-How-it-works/);
-    background-position: 2px 2px;
-    background-repeat: no-repeat;
+    margin-bottom:20px;
+ 
     padding: 6px 10px 10px 30px;
 }
 
 .infop{
-    width: 80%;
+    width: 300px;
     padding: 6px 20px;
-    border-radius: 15px;
+    border-radius: 19px;
     background-color:white;
-    background-image:url(../images/CRM-How-it-works/Page-1.png);
-    background-position: 2px 2px;
-    background-repeat: no-repeat;
+    
+    padding: 6px 10px 10px 30px;
+} 
+
+.infouser{
+    width: 300px;
+    height: 
+    padding: 6px 20px;
+    border-radius: 19px;
+    background-color:white;
+    margin-bottom:20px;
+    
+
+    padding: 6px 10px 10px 30px;
+    
+    }
+
+.infoemail{
+    width: 300px;
+    padding: 6px 20px;
+    border-radius: 19px;
+    background-color:white;
+    margin-bottom:20px;
+ 
     padding: 6px 10px 10px 30px;
 }
 
+.infopass{
+    width: 300px;
+    padding: 6px 20px;
+    border-radius: 19px;
+    background-color:white;
+    
+    padding: 6px 10px 10px 30px;
+}
+
+.new{
+    padding: 10px;
+   
+}
+
 .sign{
-    text-align: center;
+    
     font-size:18px;
     padding: 0px;
-    margin-left: 55%;
+    margin-left:10%;
+    margin-bottom:20px;
+    
+}
+
+.signup{
+    
+    font-size:18px;
+    padding: 0px;
+    margin-left:50px;
+    margin-bottom:20px;
+    
 }
 
 .sup{
     background-color:rgba(4, 90, 202, 0.89);
     color:white;
-    padding: 5px;
-    width: 120px;
-    margin-left: 25%;
+    
+    width: 130px;
+    height:35px;
+    margin-bottom: 10px;
     font-size: 13px;
     padding: 6px 15px;
-    border-radius: 15px;
+    border-radius: 19px;
     border: rgba(4, 90, 202, 0.89);
 }
 
 .sip{
-    margin-left: 60%;
-    padding: 40px;
+    padding: 35px;
+    height:5px;
+    margin-left:5%;
+}
+
+.sipup{
+    padding: 35px;
+    height:5px;
+    margin-left:30px;
 }
 
 .platform{
     font-style:bold;
     font-size:8px;
-    text-align:center;
-    margin-left: 60%;
+    margin-left:60px;
+}
+
+.platformup{
+    font-style:bold;
+    font-size:8px;
+    margin-left:60px;
     
 }
 
-.bubbles{
-    display:flex;
-    height: 150px;
-    width: 240px;
-    margin-left: 70%;
+
+.bottom-grid{
+    height:25px;
+    width:25px;
+    padding:6px;
+    margin: 1px;
+    border:1px solid black;
+
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
     
+}
+
+.fab{
+    height:25px;
+    width:25px;
+    padding:7px;
+    
+    border:1px solid black;
+
+    border-radius: 400px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
 
 }
+
 
 
 
