@@ -1,0 +1,157 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . .";
+  }
+  
+  .potatoes{
+    padding: 20px;
+    
+}
+
+.infou{
+    width: 80%;
+    padding: 6px 20px;
+    border-radius: 15px;
+    background-color:white;
+    background-image:url(../images/CRM-How-it-works/Page-1.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding: 6px 10px 10px 30px;
+    
+    }
+
+.infoe{
+    width: 80%;
+    padding: 6px 20px;
+    border-radius: 15px;
+    background-color:white;
+    background-image:url(../images/CRM-How-it-works/);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding: 6px 10px 10px 30px;
+}
+
+.infop{
+    width: 80%;
+    padding: 6px 20px;
+    border-radius: 15px;
+    background-color:white;
+    background-image:url(../images/CRM-How-it-works/Page-1.png);
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding: 6px 10px 10px 30px;
+}
+
+.sign{
+    text-align: center;
+    font-size:18px;
+    padding: 0px;
+    margin-left: 55%;
+}
+
+.sup{
+    background-color:rgba(4, 90, 202, 0.89);
+    color:white;
+    padding: 5px;
+    width: 120px;
+    margin-left: 25%;
+    font-size: 13px;
+    padding: 6px 15px;
+    border-radius: 15px;
+    border: rgba(4, 90, 202, 0.89);
+}
+
+.sip{
+    margin-left: 60%;
+    padding: 40px;
+}
+
+.platform{
+    font-style:bold;
+    font-size:8px;
+    text-align:center;
+    margin-left: 60%;
+    
+}
+
+.bubbles{
+    display:flex;
+    height: 150px;
+    width: 240px;
+    margin-left: 70%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
