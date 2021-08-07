@@ -1,0 +1,256 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.HIWcontainer{
+    padding:10px;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.HIWtopTextArea{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+}
+
+.HIWtopTextTitle{
+    font-size: 24px;
+    font-style: bold;
+    height: 80px;
+}
+
+.HIWTextBody {
+    font-size: 14px;
+}
+
+.HIWPicArea{
+    padding:20px;
+}
+
+.HIWPicBox1{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    height: 50%;
+}
+
+.HIWPicCorner1{
+    height:20px;
+    width: 20px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 100% 0 0 0;
+}
+
+.HIWPicBoxTop1{
+    width: 30%;
+    border-top: 1px solid black;
+}
+
+.HIWPicBoxTop2{
+    width: 60%;
+    border-top: 1px solid black;
+    background-color: blue;
+}
+
+.HIWPicCorner2{
+    height:20px;
+    width: 20px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 0 100% 0 0;
+    background-color: blue;
+}
+
+.HIWPicSide1{
+    width: 20px;
+    border-left: 1px solid black;
+}
+
+.HIWPicBox1{
+    width: 30%;
+}
+
+.HIWPicBox2{
+    width: 60%;
+    background-color: blue;
+}
+
+.HIWPicSide2{
+    width: 20px;
+    border-right: 1px solid black;
+    background-color: blue;
+}
+
+.HIWPicBox2Title{
+    font-size: 24px;
+    font-style: bold;
+    height: 60px;
+    color: white;
+    padding-top: 5%;
+}
+
+.HIWPicBox2Text{
+    font-size: 14px;
+    color: white;
+    padding: 10%;
+    text-align: left;
+}
+
+.HIWPicCorner3{
+    height:20px;
+    width: 20px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 0 100%;
+}
+
+.HIWPicBoxBottom1{
+    width: 30%;
+    border-bottom: 1px solid black;
+}
+
+.HIWPicBoxBottom2{
+    width: 60%;
+    border-bottom: 1px solid black;
+    background-color: blue;
+}
+
+.HIWPicCorner4{
+    height:20px;
+    width: 20px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 100% 0;
+    background-color: blue;
+}
+
+.HIWPicBox2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.HIWPicSide2{    
+    background-color: blue;
+}
+
+.HIWmidTextArea{
+    display:flex;
+    justify-content: center;
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+}
+
+[title=collect_info]{  
+    max-width: 90%;
+}
+
+[title=take_payments]{  
+    max-width: 90%;
+}
