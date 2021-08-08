@@ -4,7 +4,8 @@
     grid-template-rows: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    width:300px;
+    height: 56px;
+    width:320px;
     grid-template-areas:
       ". . . .";
   }
@@ -16,8 +17,25 @@
 
 .potatoestwo{
     padding: 20px;
-    
-    margin-left:5%
+    height: 750px;
+    width: 75%;
+    background-image: url(../images/CRM-SignUp/Group\ 10.png);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-x: 400px;
+    background-position-y: 30px;
+    margin-left:13%
+}
+
+.potatoestwoIn{
+    padding: 20px;
+    height: 750px;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-x: 400px;
+    background-position-y: 30px;
+    margin-left:60%
 }
 
 .input-icons i{
@@ -58,9 +76,11 @@
 
 .infouser{
     width: 300px;
-    height: 
+    height: 35px;
     padding: 6px 20px;
-    border-radius: 19px;
+    border-radius: 26px;
+    border-width: thin;
+    border: 1px solid black;
     background-color:white;
     margin-bottom:20px;
     
@@ -71,8 +91,10 @@
 
 .infoemail{
     width: 300px;
+    height: 35px;
     padding: 6px 20px;
-    border-radius: 19px;
+    border-radius: 26px;
+    border: 1px solid black;
     background-color:white;
     margin-bottom:20px;
  
@@ -81,15 +103,18 @@
 
 .infopass{
     width: 300px;
+    height: 35px;
     padding: 6px 20px;
-    border-radius: 19px;
+    border-radius: 26px;
+    border: 1px solid black;
     background-color:white;
     
     padding: 6px 10px 10px 30px;
 }
 
 .new{
-    padding: 10px;
+    padding: 18px;
+    margin-left: 7px;
    
 }
 
@@ -104,9 +129,9 @@
 
 .signup{
     
-    font-size:18px;
+    font-size:25px;
     padding: 0px;
-    margin-left:50px;
+    margin-left:80px;
     margin-bottom:20px;
     
 }
@@ -114,13 +139,14 @@
 .sup{
     background-color:rgba(4, 90, 202, 0.89);
     color:white;
-    
-    width: 130px;
-    height:35px;
-    margin-bottom: 10px;
-    font-size: 13px;
+    font-weight: bold;
+    width: 160px;
+    height:45px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+    font-size: 22px;
     padding: 6px 15px;
-    border-radius: 19px;
+    border-radius: 25px;
     border: rgba(4, 90, 202, 0.89);
 }
 
@@ -143,20 +169,19 @@
 }
 
 .platformup{
-    font-style:bold;
-    font-size:8px;
+    font-weight: bold;
+    font-size:15px;
     margin-left:60px;
     
 }
 
 
 .bottom-grid{
-    height:25px;
-    width:25px;
+    height:40px;
+    width:40px;
     padding:6px;
     margin: 1px;
     border:1px solid black;
-
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
@@ -189,8 +214,8 @@ body{
       border-top: 100px solid transparent;
       border-bottom: 300px solid transparent;
       border-radius: 0px 0px 1000px 250px;
-      margin-top: -450px;
-      margin-left: -150px;
+      margin-top: -1200px;
+      margin-left: -100px;
       transform: rotate(25deg);
     }
 
