@@ -26,17 +26,33 @@
         
             </div>
         </div>
-        <div class="col-1" id="home"><button id="home_button">Home</button></div>
+        <div class="col-1" id="home">
+            <form action="home.html" method="get" target="_blank">
+                <button id="home_button">Home</button>
+            </form>
+        </div>
         <div class="col-1" id="features"><button id="features_button">Features</button></div>
         <div class="col-1" id="pricing"><button id="pricing_button">Pricing</button></div>
-        <div class="col-2" id="howIt"><button id="how_button">How it Works</button></div>
-        <div class="col-1" id="Supp"><button id="supp_button">Support</button></div>
+        <div class="col-2" id="howIt">
+            <form action="how_it_works.html" method="get" target="popup">
+                <button id="how_button">How it Works</button>
+            </form>
+            </div>
+        <div class="col-1" id="Supp">
+            <form action="sign_in.html" method="get" target="popup">
+                <button id="supp_button">Support</button>
+            </form>
+        </div>
         <div class="col-1" id="blank1"> </div>
         <div class="col-1" id="si_button">
-            <button class="but">Sign In</button>
+            <form action="sign_in.html" method="get" target="popup">
+                <button class="but">Sign In</button>
+            </form>
         </div>
         <div class="col-1" id="tryFree_button">
-            <button class="tryButt">Try It Free</button>       
+            <form action="sign_up.html" method="get" target="popup">
+                <button class="tryButt">Try It Free</button>       
+            </form>
         </div>
     </div>
 </div>
@@ -67,10 +83,13 @@
                     </div>
                 </div>           
                 <div class="header_buttons">
-                    <button id="tbut1"></button><button id="tbut2"></button>
+                    <form action="sign_in.html" method="get" target="popup">
+                        <button id="tbut1"></button>
+                    </form>
+                    <button id="tbut2"></button>
                 </div>
                 <div id="already">
-                    <div class="greyText">Already using <b>Double</b>Tap ? <a href="#" style="color: grey;"><b>Sign In</b></a></div>
+                    <div class="greyText">Already using <b>Double</b>Tap ? <a href="sign_in.html" target="_blank" style="color: grey;"><b>Sign In</b></a></div>
                 </div>
                 <div class="header_close">
                     <div>Free 14 Day Trial</div>
@@ -159,29 +178,19 @@
             </div>
         </div>
     </div>
-<!-- footer
->>background blue 
->>HR "Try Doubletap" 
->>paragraph 
->>Two buttons side by side 
->>>Same small text from header--> 
+
 <footer>
 
 <div class="f">
-    <!-- <div class="bottom"> -->
-        <!-- <div class="lower"> -->
-            <!-- <div class="foot" title="foot"> -->
-                <!-- <div class="fhead"> -->
-
-
             <h3 id="bottom"> Try Double Tap Today!</h3>
             <div id="lets">Let's Get Started</div>
-            <!-- <div class="row" id="fbut"> -->
-            <div class="row">    
+            <div class="row">
                 <div class="col-12 col-sm-3 col-md-3">
                 </div>
                 <div class="col-12 col-sm-3 col-md-3">
-                    <button id="fbut1"></button>
+                    <form action="sign_in.html" method="get" target="popup">
+                        <button id="fbut1"></button>
+                    </form>
                 </div>    
                 <div class="col-12 col-sm-3 col-md-3">
                     <button id="fbut2"></button>
@@ -190,10 +199,7 @@
                 </div>
             </div>
             <div class="footsub">
-            <!-- <div class="row" id="bottomTag"> -->
                 <div class="row">
-                    <!-- <div class="col-12 col-sm-1 col-md-1">
-                    </div> -->
                     <div class="col-12 col-sm-3 col-md-3">Free 14 Day Trial</div>
                     <div class="col-12 col-sm-1 col-md-1" >
                         <img title="dot_between" src="../images/CRM-How-it-works/Path 25.png">
@@ -203,16 +209,8 @@
                         <img title="dot_between" src="../images/CRM-How-it-works/Path 25.png">
                     </div>
                     <div class="col-12 col-sm-3 col-md-3">Cancel at Anytime</div>
-                    <!-- <div class="col-12 col-sm-1 col-md-1">
-                    </div> -->
                 </div>
             </div>
-        
-        
-                <!-- </div> -->
-            <!-- </div>  -->
-        <!-- </div> -->
-    <!-- </div>     -->
 </div>
 
 </footer>

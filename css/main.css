@@ -250,54 +250,6 @@ body{
     margin-left: 50%;
 }
 
-/* Nav Bar Horizontal Across Top */
-    /* img on the left */
-    /* menu in the center */
-    /* Buttons off to the right side */
-        /* first blue second white */
-
-/* Header */
-    /* HR "Focus On Buisnes" with a subheading "Let Us" */
-    /* Paragraph w/ Medium Text */
-    /* Two buttons next to each other */
-        /* first blue second white */
-    /* paragraph w/ medium text */
-    /* Small text */
-
-/* GRID */
-    /* 3 x 3 */
-        /* background: blue white blue  */
-
-/* hr */
-
-/* #navbar {
-    margin-left: 100px;
-    display: inline;
-    float: right;
-}
-
-
-li a {
-    padding: 10px;
-    display: inline;
-    float: right;
-    
-} */
-/* NEW */
-/* Move Nav Bar list to The center */
-/* footer */
-/* background blue */
-/* HR "Try Doubletap" */
-    /* paragraph */
-/* Two buttons side by side */
-/* Same small text from header */
-
-
-
-/* * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
-
 #navigation {
     background-color: white;
     width: 100%;
@@ -585,37 +537,6 @@ li a {
     padding: 20px;
 }
 
-/* #trial {
-    margin-left: 15cm;
-    margin-top: 35px;
-    width: 300px;
-    margin-bottom: 200px;
-    margin-top: 70px;
-    font-size: large;
-    font-style: double;
-
-}
-
-#manage {
-    margin-left: 17cm;
-    margin-top: 35px;
-    width: 300px;
-    margin-bottom: 100px;
-    margin-top: 70px;
-    font-size: large;
-    font-style: double;
-}
-
-#cancel {
-    margin-left: 17cm;
-    margin-top: 35px;
-    width: 450px;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    font-size: large;
-    font-style: double;
-} */
-
 [title=dot_between]{
     max-height: 10px;
     max-width: 10px;
@@ -643,8 +564,6 @@ li a {
 #skullbreak{
     width: 60%;
 }
-  
-/* Getstarted chat with us button2 */
 
 .HIWcontainer{
     padding:10px;
