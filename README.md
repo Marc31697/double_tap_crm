@@ -12,3 +12,5 @@ Andrew
   
 Stephen
   Handled the middle portions of the home and how it works pages
+
+Paris
